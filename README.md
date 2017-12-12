@@ -1,13 +1,14 @@
-# cs5740p2
-Author: Dongdong Yu(dy277), Guanyu Chen(gc534), Yanfei Yu(yy777)
+# Name Entity Recognition (NER) with Hidden Markov Model
+
+This is the second course project in Cornell CS4740 Natural Language Process course. For this project, we use a hidden markov model to predict the NER of each work in a document. Our final model with HMM reached about 0.75 F1-Score, and our project achieved top 18% in the course's Kaggle competition.
 
 ## Run
 In root folder of the project, run:
 ```
 javac -d . src/*.java
 java HMM [training file path] [testing file path]
-
 ```
+
 For Example
 ```
 javac -d . src/*.java
